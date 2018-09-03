@@ -1,0 +1,243 @@
+
+@import url(https://fonts.googleapis.com/css?family=Metamorphous:regular);
+ @import url(https://fonts.googleapis.com/css?family=Montserrat|Sacramento:100,100italic,200,200italic,300,300italic,regular,italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic);
+
+ html, body {
+    
+      height: 100%;
+    
+      width: 100%;
+    
+    }
+    
+    /* padded section */
+    
+    .pad-section {
+    
+      padding: 50px 0;
+    
+    }
+    
+    .pad-section img {
+    
+      width: 100%;
+    
+    }
+    
+    /* vertical-centered text */
+    
+    .text-vcenter {
+    
+      display: table-cell;
+    
+      text-align: center;
+    
+      vertical-align: middle;
+    
+    }
+    
+    .text-vcenter h1 {
+    
+      font-size: 4.5em;
+    
+      font-weight: 200;
+       color: rgb(97, 103, 112);
+      margin-top: 150px;
+    
+      padding: 0;
+     }
+    
+    /* additional sections */
+    
+    #home {
+    
+      background: url("../img/image_head.jpg") no-repeat center center fixed;
+      
+      display: table;
+    
+      height: 100%;
+    
+      position: relative;
+    
+      width: 100%;
+    
+      -webkit-background-size: cover;
+    
+      -moz-background-size: cover;
+    
+      -o-background-size: cover;
+    
+      background-size: cover;
+    }
+   
+    .btn-primary:hover
+    {
+        color: blue;
+        background-color: white;
+        font-family: 'Montserrat', sans-serif;
+    
+
+    }
+    .news
+{
+    font-size: 40px;
+    font-weight: 400;
+    color:rgba(201, 26, 26, 0.959);
+     font-family: 'Metamorphous', cursive;
+     margin-bottom: 50px;
+
+}
+.events
+{
+   margin-top: 80px;
+    font-size: 40px;
+    font-weight: 400;
+    color:rgb(72, 128, 9);
+    font-family: 'Metamorphous', cursive;
+    
+}
+.academics
+ {font-size: 40px;
+    font-weight: 600;
+    color:rgb(6, 84, 121);
+    font-weight: 400;
+     margin-top: 50px;
+    font-family: 'Metamorphous', cursive;
+  }
+  
+.campus-life
+{
+    font-size: 40px;
+    font-weight: 400;
+    color:rgb(95, 79, 7);
+    font-family: 'Metamorphous', cursive;
+   
+}
+.aandf
+{   font-size: 40px;
+  font-weight: 400;
+  color:rgb(7, 89, 95);
+  font-family: 'Metamorphous', cursive;
+  margin-bottom: 30px;
+}
+.aandc
+{   font-size: 30px;
+  font-weight: 400;
+  color:rgb(95, 79, 7);
+  font-family: 'Metamorphous', cursive;
+}
+.departments
+{  font-size: 40px;
+  font-weight: 400;
+  color:rgb(207, 57, 82);
+  font-family: 'Metamorphous', cursive;
+  margin-top: 70px;}
+center>p.tagline
+  {
+    color: rgb(5, 5, 5);
+    font-size: 30px;
+    font-family: 'Sacramento';
+
+  }
+  button.btn-danger
+  {
+    text-align: center;
+    width: 100%;
+    font-size: 30px;
+
+  }
+  button.btn-danger:hover
+  {
+      color: red;
+      background-color: white;
+  }
+  button.btn-primary
+  {
+   font-family:  'Montserrat', sans-serif;
+    text-align: center;
+    width: 100%;
+    font-size: 30px;
+    color: white;
+   
+  }
+  button.btn-primary:hover
+  {
+    color: rgb(4, 0, 255);
+    background-color: white;
+    
+  }
+.card-text
+{
+    color: black;
+    font-size: 20px;
+}
+/*additional*/
+
+div.card>.card-body>.card-text
+{
+    color: black;
+    font-family: 'Courier New', Courier, monospace;
+}
+div.card>.card-body>.card-title
+{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgba(8, 19, 19, 0.199);
+}
+small.text-muted
+{   color: cadetblue;
+    font-family: 'Courier New', Courier, monospace;
+}
+p.descript
+{
+    color: black;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+}
+ .about_us
+ {
+     color: black;
+     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+ }
+ hr.style-one {
+    border: 0;
+    height: 1px;
+    background: #333;
+    background-image: -webkit-linear-gradient(left, #ccc, #333, #ccc);
+    background-image: -moz-linear-gradient(left, #ccc, #333, #ccc);
+    background-image: -ms-linear-gradient(left, #ccc, #333, #ccc);
+    background-image: -o-linear-gradient(left, #ccc, #333, #ccc);
+    }
+    hr.type_1
+    {
+        border: 0;
+        height: 55px;
+        background-image: url("../img/type_1.png") ;
+        background-repeat:no-repeat;
+        background-position: center;
+}
+    /*
+    scrolling effect*/
+    
+.come-in {
+    transform: translateY(150px);
+    animation: come-in 0.8s ease forwards;
+  }
+  .come-in:nth-child(odd) {
+    animation-duration: 0.6s;
+  }
+  .already-visible {
+    transform: translateY(0);
+    animation: none;
+  }
+  
+  @keyframes come-in {
+    to { transform: translateY(0); }
+  }
+center.departments
+  {
+      color: rgb(7, 90, 20);
+      text-align: center;
+      font-family: 'Montserrat', sans-serif;
+      font-weight: 300;
+      
+    }

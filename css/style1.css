@@ -1,0 +1,290 @@
+@import url('https://fonts.googleapis.com/css?family=Questrial|Notiicia+Text');
+@import url(https://fonts.googleapis.com/css?family=Kanit:100,100italic,200,200italic,300,300italic,regular,italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic);
+
+@import url(https://fonts.googleapis.com/css?family=Rokkitt:100,200,300,regular,500,600,700,800,900);  
+.parallax { 
+    /* The image used */
+background-color: cadetblue;   /* Set a specific height */
+    height: 400px; 
+    
+    margin-top: 70px;
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.parallax h1 
+{
+        color: rgba(238, 228, 228, 0.8);
+        font-size: 60px;
+        text-align: center;
+        font-family: 'Noticia Text', serif;
+
+}
+nav>div>a
+{
+
+    color: black;
+    font-size: 20px;
+    font-family: 'Questrial', sans-serif;
+
+}
+    
+p.para1
+{
+  font-size: 20px;
+  color: rgb(14, 54, 100);
+  font-family: 'Noticia Text',serif;
+}
+p::first-letter { 
+    font-size: 60px;
+    color: rgba(23, 41, 77, 0.562);
+    font-family: 'Noticia Text',serif;
+}
+
+p.para2
+{
+  font-size: 20px;
+  color: rgb(14, 100, 25);
+  font-family: 'Noticia Text',serif;
+}
+p.para3
+{
+    font-size: 20px;
+    color: rgb(14, 54, 100);
+    font-family: 'Noticia Text',serif;
+  }
+  h2.tab-head
+  {
+      color: rgba(8, 117, 66, 0.575);
+      font-size: 50px;
+      font-family: 'Noticia Text',serif;
+  }
+  ul{
+
+    margin-top: 20px;
+  }
+  ul.points>li
+  {
+    color: rgb(21, 65, 4);
+    font-size: 25px;
+  }
+  h4.card-title
+  {
+      color: rgb(8, 46, 82);
+      font-family: 'Noticia Text',serif;
+  }
+  h5.designation
+  {
+      color: rgba(248, 2, 2, 0.705)
+  }
+  .card-columns
+  {
+      margin-top: 10px;
+  }
+  .card-title
+  {
+      color: rgba(243, 9, 9, 0.774);
+      font-family: 'Rokkitt', regular;
+      border-style: solid;
+      border-color: rgba(220, 20, 60, 0.123);
+      text-align: center;
+}
+.card-image
+{
+    border: solid rgba(98, 98, 112, 0.363) 2px;
+    padding: 5px;
+     
+}
+h4.description
+{
+    text-align: center;
+    color: rgba(32, 41, 41, 0.527);
+}
+.row
+{
+    margin-top: 10px;
+}
+.text-vcenter {
+    
+    display: table-cell;
+  
+    text-align: center;
+  
+    vertical-align: middle;
+  
+  }
+  
+  .text-vcenter h1 {
+  
+    font-size: 4.5em;
+  
+    font-weight: 200;
+     color: rgb(246, 248, 250);
+    margin-top: 150px;
+    padding: 0;
+   }
+  
+  /* additional sections */
+  
+  #home {
+  
+    background:url('../img/Nadia_Huisjes.jpg') no-repeat center center fixed;
+    
+    display: table;
+  
+    height: 100%;
+  
+    position: relative;
+  
+    width: 100%;
+  
+    -webkit-background-size: cover;
+  
+    -moz-background-size: cover;
+  
+    -o-background-size: cover;
+  
+    background-size: cover;
+  }
+  #homece {
+  
+    background:url('../img/engineering-surveying_0.jpg') no-repeat center center fixed;
+    
+    display: table;
+  
+    height: 100%;
+  
+    position: relative;
+  
+    width: 100%;
+  
+    -webkit-background-size: cover;
+  
+    -moz-background-size: cover;
+  
+    -o-background-size: cover;
+  
+    background-size: cover;
+  }
+  #homeme {
+  
+    background:url('../img/btec-engineering-featured-image.jpg') no-repeat center center fixed;
+    
+    display: table;
+  
+    height: 100%;
+  
+    position: relative;
+  
+    width: 100%;
+  
+    -webkit-background-size: cover;
+  
+    -moz-background-size: cover;
+  
+    -o-background-size: cover;
+  
+    background-size: cover;
+  }
+  #homecs {
+  
+    background:url('../img/informatizar_empresa.jpg') no-repeat center center fixed;
+    
+    display: table;
+  
+    height: 100%;
+  
+    position: relative;
+  
+    width: 100%;
+  
+    -webkit-background-size: cover;
+  
+    -moz-background-size: cover;
+  
+    -o-background-size: cover;
+  
+    background-size: cover;
+  }
+  #homeec {
+  
+    background:url('../img/1464674843_ece.jpg') no-repeat center center fixed;
+    
+    display: table;
+  
+    height: 100%;
+  
+    position: relative;
+  
+    width: 100%;
+  
+    -webkit-background-size: cover;
+  
+    -moz-background-size: cover;
+  
+    -o-background-size: cover;
+  
+    background-size: cover;
+  }
+  #homeex {
+  
+    background:url('../img/Electrical\ Student.jpg') no-repeat center center fixed;
+    
+    display: table;
+  
+    height: 100%;
+  
+    position: relative;
+  
+    width: 100%;
+  
+    -webkit-background-size: cover;
+  
+    -moz-background-size: cover;
+  
+    -o-background-size: cover;
+  
+    background-size: cover;
+  }
+  #homephy{
+  
+    background:url('../img/mainslide.jpg') no-repeat center center fixed;
+    
+    display: table;
+  
+    height: 100%;
+  
+    position: relative;
+  
+    width: 100%;
+  
+    -webkit-background-size: cover;
+  
+    -moz-background-size: cover;
+  
+    -o-background-size: cover;
+  
+    background-size: cover;
+  }
+  #homemaths {
+  
+    background:url('../img/landscape-1476389673-gettyimages-168351286.jpg') no-repeat center center fixed;
+    
+    display: table;
+  
+    height: 100%;
+  
+    position: relative;
+  
+    width: 100%;
+  
+    -webkit-background-size: cover;
+  
+    -moz-background-size: cover;
+  
+    -o-background-size: cover;
+  
+    background-size: cover;
+  }
